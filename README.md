@@ -22,6 +22,8 @@ or
 Read the source, Luke!
 ```
 
+Tip: `./gha-win.py IP --prefer IP --force-login --dns DNS_IP` will spawn interactive shell on the IP machine provided you have hash for it in the file. `--dns` can be omitted if section names are hostnames (use `--prefer HOSTNAME` instead of `--prefer IP` in this case)
+
 ### File with hashes
 
 1. **#** indicates start of the machine section. Section name should be IP or hostname
